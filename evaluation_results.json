@@ -1,0 +1,376 @@
+{
+  "total": 40,
+  "correct": 35,
+  "false_positives": [
+    "test/safe_07.png"
+  ],
+  "false_negatives": [
+    "test/lp_10.png",
+    "test/selfie_04.png",
+    "test/birth_02.jpg",
+    "test/document_02.jpg"
+  ],
+  "details": [
+    {
+      "image": "test/lp_01.jpg",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "license plate detected (88% confidence)"
+      ]
+    },
+    {
+      "image": "test/lp_02.jpg",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "license plate detected (92% confidence)"
+      ]
+    },
+    {
+      "image": "test/lp_03.jpg",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "license plate detected (57% confidence)"
+      ]
+    },
+    {
+      "image": "test/lp_04.jpg",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "license plate detected (72% confidence)"
+      ]
+    },
+    {
+      "image": "test/lp_05.jpg",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "license plate detected (77% confidence)"
+      ]
+    },
+    {
+      "image": "test/lp_06.jpg",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "license plate detected (70% confidence)",
+        "license plate detected (60% confidence)"
+      ]
+    },
+    {
+      "image": "test/lp_07.png",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "license plate detected (87% confidence)",
+        "license plate detected (68% confidence)",
+        "license plate detected (47% confidence)"
+      ]
+    },
+    {
+      "image": "test/lp_08.png",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "license plate detected (91% confidence)"
+      ]
+    },
+    {
+      "image": "test/lp_09.png",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "license plate detected (93% confidence)"
+      ]
+    },
+    {
+      "image": "test/lp_10.png",
+      "expected": true,
+      "predicted": false,
+      "correct": false,
+      "reasons": []
+    },
+    {
+      "image": "test/exif_01.jpg",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "EXIF metadata found (may contain GPS/device info)"
+      ]
+    },
+    {
+      "image": "test/exif_02.jpg",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "face detected",
+        "face detected",
+        "EXIF metadata found (may contain GPS/device info)"
+      ]
+    },
+    {
+      "image": "test/exif_03.jpg",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "EXIF metadata found (may contain GPS/device info)"
+      ]
+    },
+    {
+      "image": "test/aadharcard1.jpg",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "face detected",
+        "license plate detected (64% confidence)",
+        "sensitive text found: 'Government of India'"
+      ]
+    },
+    {
+      "image": "test/aadharcard2.jpg",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "Aadhaar number pattern detected: '6890 00988023'"
+      ]
+    },
+    {
+      "image": "test/aadharcard3.jpg",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "sensitive text found: 'tftai DOB:'",
+        "Aadhaar number pattern detected: '4421 9689 9245'"
+      ]
+    },
+    {
+      "image": "test/bank_01.jpg",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "sensitive text found: 'Banking'"
+      ]
+    },
+    {
+      "image": "test/selfie_01.png",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "face detected",
+        "face detected",
+        "face detected",
+        "face detected"
+      ]
+    },
+    {
+      "image": "test/selfie_02.png",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "face detected"
+      ]
+    },
+    {
+      "image": "test/selfie_03.png",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "face detected",
+        "face detected"
+      ]
+    },
+    {
+      "image": "test/selfie_04.png",
+      "expected": true,
+      "predicted": false,
+      "correct": false,
+      "reasons": []
+    },
+    {
+      "image": "test/selfie_05.jpg",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "face detected",
+        "face detected"
+      ]
+    },
+    {
+      "image": "test/safe_01.png",
+      "expected": false,
+      "predicted": false,
+      "correct": true,
+      "reasons": []
+    },
+    {
+      "image": "test/safe_02.png",
+      "expected": false,
+      "predicted": false,
+      "correct": true,
+      "reasons": []
+    },
+    {
+      "image": "test/safe_03.png",
+      "expected": false,
+      "predicted": false,
+      "correct": true,
+      "reasons": []
+    },
+    {
+      "image": "test/safe_04.png",
+      "expected": false,
+      "predicted": false,
+      "correct": true,
+      "reasons": []
+    },
+    {
+      "image": "test/safe_05.png",
+      "expected": false,
+      "predicted": false,
+      "correct": true,
+      "reasons": []
+    },
+    {
+      "image": "test/safe_06.png",
+      "expected": false,
+      "predicted": false,
+      "correct": true,
+      "reasons": []
+    },
+    {
+      "image": "test/safe_07.png",
+      "expected": false,
+      "predicted": true,
+      "correct": false,
+      "reasons": [
+        "face detected"
+      ]
+    },
+    {
+      "image": "test/safe_08.png",
+      "expected": false,
+      "predicted": false,
+      "correct": true,
+      "reasons": []
+    },
+    {
+      "image": "test/safe_09.png",
+      "expected": false,
+      "predicted": false,
+      "correct": true,
+      "reasons": []
+    },
+    {
+      "image": "test/birth_01.jpg",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "sensitive text found: 'BIRTH CERTIFICATE'"
+      ]
+    },
+    {
+      "image": "test/birth_02.jpg",
+      "expected": true,
+      "predicted": false,
+      "correct": false,
+      "reasons": []
+    },
+    {
+      "image": "test/credit_01.jpg",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "license plate detected (79% confidence)",
+        "Aadhaar number pattern detected: '5185 4200 8888'"
+      ]
+    },
+    {
+      "image": "test/credit_02.jpg",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "license plate detected (74% confidence)",
+        "sensitive text found: 'Royal Bank'",
+        "Aadhaar number pattern detected: '5412 7512 3456'"
+      ]
+    },
+    {
+      "image": "test/credit_03.jpg",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "license plate detected (69% confidence)"
+      ]
+    },
+    {
+      "image": "test/credit_04.jpg",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "license plate detected (72% confidence)",
+        "Aadhaar number pattern detected: '5299 1234 5678'"
+      ]
+    },
+    {
+      "image": "test/document_01.jpg",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "face detected"
+      ]
+    },
+    {
+      "image": "test/document_02.jpg",
+      "expected": true,
+      "predicted": false,
+      "correct": false,
+      "reasons": []
+    },
+    {
+      "image": "test/document_03.jpg",
+      "expected": true,
+      "predicted": true,
+      "correct": true,
+      "reasons": [
+        "face detected",
+        "license plate detected (66% confidence)",
+        "license plate detected (63% confidence)",
+        "license plate detected (57% confidence)",
+        "license plate detected (54% confidence)",
+        "license plate detected (51% confidence)",
+        "license plate detected (50% confidence)",
+        "license plate detected (42% confidence)",
+        "sensitive text found: 'Company'"
+      ]
+    }
+  ]
+}
